@@ -3,22 +3,21 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: 下北沢研究院
+subtitle: "Flymyd's blog"
+description: '一个不严肃的技术博客'
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: flymyd
+language: zh
+timezone: 'Asia/Shanghai'
 
-# URL
-## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-permalink: :year/:month/:day/:title/
+url: https://blog.van.ac.cn
+#permalink: :year/:month/:day/:title/
+permalink: wiki/:title/
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: false
+  trailing_html: false
 
 # Directory
 source_dir: source
@@ -29,6 +28,8 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - README.md
+  - '_posts/**/embed_page/**'
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -54,7 +55,39 @@ prismjs:
   preprocess: true
   line_number: true
   tab_replace: ''
+## Markdown
+## https://github.com/hexojs/hexo-renderer-marked
+marked:
+  gfm: true
 
+## Plugins: https://hexo.io/plugins/
+### JsonContent
+jsonContent:
+  meta: false
+  pages:
+    title: true
+    date: true
+    path: true
+    text: true
+  posts:
+    title: true
+    date: true
+    path: true
+    text: true
+    tags: true
+    categories: true
+  ignore:
+    - 404.html
+
+### Creat sitemap
+sitemap:
+  path: sitemap.xml
+
+### Adds nofollow attribute to all external links in your hexo blog posts automatically.
+nofollow:
+  enable: true
+  exclude:
+    - blog.van.ac.cn # eg: zthxxx.me
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -96,7 +129,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: Wikitten
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
