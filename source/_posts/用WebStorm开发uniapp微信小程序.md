@@ -2,7 +2,7 @@
 title: 用WebStorm开发uniapp微信小程序
 toc: true
 date: 2023-05-16 10:42:38
-tags: [Uniapp, 微信小程序, WebStorm, Vite]
+tags: [uniApp, 微信小程序, WebStorm, Vite]
 categories:
   - [前端技术, uniApp移植Linux记录]
 ---

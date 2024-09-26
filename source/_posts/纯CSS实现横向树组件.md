@@ -3,8 +3,7 @@ title: 纯CSS实现横向树组件
 toc: true
 date: 2022-04-02 00:00:00
 tags: [代码片段]
-categories:
-  - [前端技术, 代码片段]
+categories: [前端技术, 代码片段]
 ---
 ## CSS
 

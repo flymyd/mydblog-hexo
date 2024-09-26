@@ -8,7 +8,7 @@ subtitle: "Flymyd's blog"
 description: '一个不严肃的技术博客'
 keywords:
 author: flymyd
-language: zh
+language: zh-CN
 timezone: 'Asia/Shanghai'
 
 url: https://blog.van.ac.cn
@@ -41,7 +41,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
@@ -134,4 +134,5 @@ theme: Wikitten
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repo: 'https://github.com/flymyd/mydblog-hexo.git'
