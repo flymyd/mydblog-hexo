@@ -135,4 +135,4 @@ theme: Wikitten
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: 'https://github.com/flymyd/mydblog-hexo.git'
+  repo: ''
