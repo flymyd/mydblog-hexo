@@ -6,12 +6,12 @@
 title: 下北沢研究院
 subtitle: "Flymyd's blog"
 description: '一个不严肃的技术博客'
-keywords:
+keywords: 技术博客
 author: flymyd
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
-url: https://blog.van.ac.cn
+#url: https://blog.van.ac.cn
 #permalink: :year/:month/:day/:title/
 permalink: wiki/:title/
 permalink_defaults:
