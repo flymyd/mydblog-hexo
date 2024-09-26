@@ -681,9 +681,9 @@ hasown@^2.0.2:
   dependencies:
     function-bind "^1.1.2"
 
-"hexo-asset-image@github:CodeFalling/hexo-asset-image":
+"hexo-asset-image@github:flymyd/hexo-asset-image":
   version "0.0.5"
-  resolved "git+ssh://git@github.com/CodeFalling/hexo-asset-image.git#3c114cf0c0343ab28469635085b225fcae7fb9d3"
+  resolved "git+ssh://git@github.com/flymyd/hexo-asset-image.git#3c114cf0c0343ab28469635085b225fcae7fb9d3"
   dependencies:
     cheerio "^0.19.0"
     entities "^1.1.2"
