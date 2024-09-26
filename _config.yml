@@ -11,7 +11,7 @@ author: flymyd
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
-#url: https://blog.van.ac.cn
+url: https://blog.van.ac.cn
 #permalink: :year/:month/:day/:title/
 permalink: wiki/:title/
 permalink_defaults:
