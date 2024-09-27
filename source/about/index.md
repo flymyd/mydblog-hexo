@@ -1,4 +1,7 @@
 title: "About"
 layout: "page"
 ---
-你好
+# Hi there 👋
+## 联系方式
+* 邮箱：flymyd@foxmail.com
+* GitHub：[flymyd](https://github.com/flymyd)
