@@ -1,5 +1,5 @@
 ---
-title: Nest.js基础搭建 && Mysql单表CRUD
+title: Nest.js基础搭建与MySQL单表CRUD的操作
 toc: true
 date: 2023-04-12 17:24:04
 tags: [Nest.js, TypeScript, Node.js]
